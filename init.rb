@@ -1,6 +1,6 @@
-require 'redmine'
+
 require 'issue_tabs_listener'
-require_dependency 'issue_detailed_tabs_time_issues_helper_patch'
+require 'issues_helper_patch'
 
 Redmine::Plugin.register :redmine_issue_detailed_tabs_time do
   
